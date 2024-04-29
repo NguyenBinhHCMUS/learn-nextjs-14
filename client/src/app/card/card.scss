@@ -1,0 +1,13 @@
+.card {
+  &:hover {
+    @apply shadow;
+  }
+
+  &--expand {
+    height: 100px
+  }
+
+  &__active {
+    @apply shadow;
+  }
+}
